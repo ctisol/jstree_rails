@@ -13,4 +13,4 @@ module JsTreeRails
   end
 end
 
-ActionView::Helpers::PrototypeHelper::JavaScriptGenerator::GeneratorMethods.send :include, JsTreeRails::Generators
+# ActionView::Helpers::PrototypeHelper::JavaScriptGenerator::GeneratorMethods.send :include, JsTreeRails::Generators
