@@ -7,10 +7,10 @@ if(defined?(Rails))
     require 'jstree_rails/engine'
   end
 
-  ActionView::Helpers::AssetTagHelper.register_javascript_expansion(
-    :jstree => '/jstree_rails/javascripts/jquery.jstree.js'
-  )
-  ActionView::Helpers::AssetTagHelper.register_javascript_expansion(
-    :plugins => '/jstree_rails/javascripts/jquery.jstree.js'
-  )
+  # ActionView::Helpers::AssetTagHelper.register_javascript_expansion(
+  #   :jstree => '/jstree_rails/javascripts/jquery.jstree.js'
+  # )
+  # ActionView::Helpers::AssetTagHelper.register_javascript_expansion(
+  #   :plugins => '/jstree_rails/javascripts/jquery.jstree.js'
+  # )
 end
